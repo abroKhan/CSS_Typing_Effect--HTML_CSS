@@ -5,7 +5,16 @@
 
 .wrapper {
     height: 100vh;
+    font-family: monospace;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.typing__demo {
+    /* width: 100%; */
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
 }
