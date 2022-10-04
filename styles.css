@@ -12,12 +12,12 @@
 }
 
 .typing__demo {
-    width: 25ch;
+    width: 27ch;
     font-size: 2em;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    animation: typing 2s steps(25), blink .2s step-end infinite alternate;
+    animation: typing 10s steps(25), blink .2s step-end infinite alternate, erase 5s;
 }
 
 @keyframes typing {
